@@ -1,0 +1,60 @@
+*::before, *::after, *{
+	box-sizing: border-box;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans Narrow', sans-serif;
+	min-width: 320px;
+	font-weight: bold;
+	font-size: 14px;
+	background: url('../img/Body/Body-main-img.png') center no-repeat;
+	background-attachment: fixed;
+	color: #fff;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+button{
+	text-transform: uppercase;
+}
+.scroll-to-top{
+	position: fixed;
+	bottom: 70px;
+	right: 50px;
+	border-radius: 30px;
+	height: 53px;
+	width: 53px;
+	border: none;
+	outline: none;
+	display: none;
+	z-index: 1001;
+	background-color: #807a7a;
+	border: 1px solid #807a7a;
+	transition: all 0.4s ease-in-out;
+}
+.scroll-to-top:hover{
+	background-color: transparent;
+}
+.scroll-to-top:hover::before{
+	color: #807a7a;
+}
+.scroll-to-top::before{
+	content: '\f077';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	font-size: 30px;
+	color: #000;
+}
+.scroll-to-top img{
+	width: 30px;
+	height: auto;
+}

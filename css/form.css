@@ -1,0 +1,111 @@
+/* =============================================== Form Section ====================================== */
+/* =================================================================================================== */
+.form-section{
+	padding: 70px 0;
+	font-size: 16px;
+	color: #fff;
+}
+.form-section h3{
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.form-section form{
+	width: 700px;
+	background-color: #000000b3;
+	padding: 60px 80px;
+	border-radius: 30px;
+	position: relative;
+}
+.form-section label{
+	display: block;
+	text-transform: none;
+	font-size: 17px;
+	font-weight: 400;
+	margin-left: 20px;
+}
+.form-section .forms-in input{
+	width: 100%;
+	height: 50px;
+	font-size: 16px;
+	font-weight: 400;
+	background-color: #1F1F1F;
+	border: none;
+	border: 2px solid #1F1F1F;
+	padding: 8px 25px;
+	outline: none;
+	border-radius: 30px;
+	color: #fff;
+	text-transform: none;
+	transition: all 0.5s ease-in-out;
+}
+.form-section input::placeholder{
+	font-size: 18px;
+	color: #fff;
+}
+.form-section input:focus{
+	border-color: #000;
+}
+.form-section .btn-black{
+	background-color: #8a8a8a;
+	color: #000;
+	margin-top: 40px;
+	letter-spacing: 2px;
+}
+.form-section .btn-black:hover{
+	border: 2px #8a8a8a solid;
+	background-color: transparent;
+	color: #8a8a8a;
+}
+.form-section .btn-yellow{
+	background-color: #D89F14;
+	color: #000;
+	margin-top: 40px;
+	letter-spacing: 2px;
+	transition: all 0.5s ease-in-out;
+	position: absolute;
+	right: 80px;
+}
+.form-section .btn-yellow:hover{
+	border: 2px #D89F14 solid;
+	background-color: transparent;
+	color: #D89F14;
+}
+@media screen and (max-width: 790px){
+	.form-section form{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 570px){
+	.form-section form{
+		padding: 50px 40px 20px;
+	}
+	.form-section .btn-yellow{
+		right: 40px;
+	}
+	.form-section .forms-in input{
+		padding: 8px 13px;
+	}
+}
+@media screen and (max-width: 430px){
+	.form-section form{
+		padding: 40px 15px 10px;
+	}
+	.form-section .btn-yellow{
+		right: 15px;
+	}
+}
+@media screen and (max-width: 358px){
+	.form-section .btn-yellow{
+		position: relative;
+		width: 100%;
+		right: 0;
+		margin-top: -50px;
+	}
+	.form-section form{
+		padding: 50px 15px 50px;
+	}
+	.form-section .btn-black{
+		width: 100%;
+	}
+}
