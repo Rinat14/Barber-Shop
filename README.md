@@ -1,2 +1,2 @@
-# barber-shop
-Simple landing page for barbers website.
+# **Barber-Shop**
+### **Simple landing page for barbers website.**
